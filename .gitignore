@@ -1,0 +1,36 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+Debug/
+Release/
+x64/
+Win32/
+
+# Visual C++ intermediate files
+*.obj
+*.pdb
+*.ilk
+*.tlog/
+*.log
+*.idb
+*.pch
+*.res
+*.lastbuildstate
+*.ipch/
+
+# Generated application files
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Runtime output
+vulnerable_connections.txt
+fw_temp.txt

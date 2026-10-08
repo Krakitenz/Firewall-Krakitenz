@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\App"><UniqueIdentifier>{A0D7D8E1-4B01-4B4E-9B6C-2E0A2C100001}</UniqueIdentifier></Filter>
+    <Filter Include="Исходные файлы\Core"><UniqueIdentifier>{A0D7D8E1-4B01-4B4E-9B6C-2E0A2C100002}</UniqueIdentifier></Filter>
+    <Filter Include="Исходные файлы\Network"><UniqueIdentifier>{A0D7D8E1-4B01-4B4E-9B6C-2E0A2C100003}</UniqueIdentifier></Filter>
+    <Filter Include="Исходные файлы\Platform"><UniqueIdentifier>{A0D7D8E1-4B01-4B4E-9B6C-2E0A2C100004}</UniqueIdentifier></Filter>
+    <Filter Include="Файлы заголовков\Core"><UniqueIdentifier>{A0D7D8E1-4B01-4B4E-9B6C-2E0A2C100005}</UniqueIdentifier></Filter>
+    <Filter Include="Файлы заголовков\Network"><UniqueIdentifier>{A0D7D8E1-4B01-4B4E-9B6C-2E0A2C100006}</UniqueIdentifier></Filter>
+    <Filter Include="Файлы заголовков\Platform"><UniqueIdentifier>{A0D7D8E1-4B01-4B4E-9B6C-2E0A2C100007}</UniqueIdentifier></Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/App/Firewall.cpp">
+      <Filter>Исходные файлы\App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/Core/FirewallManager.cpp">
+      <Filter>Исходные файлы\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src/Core/RuleManager.cpp">
+      <Filter>Исходные файлы\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src/Network/ConnectionMonitor.cpp">
+      <Filter>Исходные файлы\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src/Platform/WfpFirewall.cpp">
+      <Filter>Исходные файлы\Platform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src/Core/FirewallManager.h">
+      <Filter>Файлы заголовков\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src/Core/RuleManager.h">
+      <Filter>Файлы заголовков\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src/Core/FirewallRule.h">
+      <Filter>Файлы заголовков\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src/Network/ConnectionMonitor.h">
+      <Filter>Файлы заголовков\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src/Platform/WfpFirewall.h">
+      <Filter>Файлы заголовков\Platform</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
+
+
+
+
+
+
